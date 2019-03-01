@@ -1,0 +1,144 @@
+{% load static from staticfiles %}
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>DataAnalyzer</title>
+
+       <style>
+#form_container
+{
+	padding:15px 15px;
+	margin-top:15px;
+	margin-bottom:20px;
+	background: rgba(255,255,255,0.75);
+}
+body
+{
+	background-color: #F4EAD5;
+	background-image: url("static/slider2.jpg");
+    background-repeat: no-repeat;
+	background-size: auto 500px;
+    marsin-bottom:30px;
+}
+       </style>
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">DataAnalyzer</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="/index">Home</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="/about">About Us <span class="sr-only">(current)</span></a>
+      </li>
+         <li class="nav-item">
+        <a class="nav-link" href="/contact">Contact Us</a>
+      </li>
+    </ul>
+  </div>
+        <form class="form-inline">
+    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+  </form>
+</nav>
+
+<h1>
+    <div>
+        <p style ="margin-top:25px; font-size: 75px; color:white;" align="center">About Us</p>
+    </div>
+</h1>
+
+
+
+    <div class="container">
+    <div class="row">
+    <div class="col-md-6 col-md-offset-3" id="form_container">
+        <p>
+            Once Data Analyzers receives your device a unique account is created while your login credentials for the DA user portal is forwarded to you so you can receive updates and ask questions related to your case. Your device(s) and corresponding accessories are now delivered to one of our expert engineers who will perform the analysis of your choice.
+
+Once your analysis is complete the engineer will place an analysis update in your DA user portal describing the issues they found and the options for recovery. This is you decide to proceed with recovery of your data. If declined your media(s) will be returned to you.
+
+        </p>
+
+</div>
+	</div>
+</div>
+
+
+    <h1 style="margin-top:30px; margin-bottom:30px;" align="center">Meet The Team</h1>
+
+
+<div class="container">
+  <div class="row">
+
+      <!-- Team Member 1 -->
+    <div class="col-xl-3 col-md-6 mb-4 mx-auto">
+      <div class="card border-1 shadow">
+        <img src="static/ra.jpg" class="card-img-top" style="width:auto; height:250px" alt="...">
+        <div class="card-body text-center">
+             <a href="static/ra.jpg"  style="width:auto; height:250px">
+            <h4 class="card-title mb-0">Rahul Yadav</h4>
+             </a>
+            <h6 class="card-title mb-0">Btech(CSE)</h6>
+          <div class="card-text text-black-50">Web Developer</div>
+            <div class="card-text text-black-50">Ph: 7251949731</div>
+            <div class="card-text text-black-50">Email : rahulapps44@gmail.com</div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 2 -->
+    <div class="col-xl-3 col-md-6 mb-4 mx-auto ">
+      <div class="card border-1 shadow">
+        <img src="static/123.jpg" class="card-img-top" style="width:auto; height:250px" alt="...">
+        <div class="card-body text-center">
+          <h4 class="card-title mb-0">Raghav Sharma</h4>
+          <h6 class="card-title mb-0">Btech(CSE)</h6>
+          <div class="card-text text-black-50">Web Developer</div>
+            <div class="card-text text-black-50">Ph: 8445249680</div>
+            <div class="card-text text-black-50">Email : raghavsharma775@gmail.com</div>
+        </div>
+      </div>
+    </div>
+    <!-- Team Member 3 -->
+    <div class="col-xl-3 col-md-6 mb-4 mx-auto">
+      <div class="card border-1 shadow">
+        <img src="static/pa.jpg" style="width:auto; height:250px" class="card-img-top" alt="...">
+        <div class="card-body text-center">
+          <h4 class="card-title mb-0">Priyavrat Sharma</h4>
+          <h6 class="card-title mb-0">Btech(CSE)</h6>
+          <div class="card-text text-black-50">Web Developer</div>
+            <div class="card-text text-black-50">Ph: 8954562648</div>
+            <div class="card-text text-black-50">Email : priyavrat27@gmail.com</div>
+        </div>
+      </div>
+    </div>
+</div>
+  <!-- /.row -->
+</div>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
